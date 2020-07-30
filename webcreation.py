@@ -2,7 +2,7 @@ from flask import Flask,redirect,url_for,render_template
 app = Flask(__name__)
 @app.route("/home")
 def home():
-       return render_template("index1.html")
+       return render_template("index.html")
     
 @app.route('/admin')
 def admin():
